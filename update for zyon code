@@ -1,0 +1,421 @@
+  MDIconButton:
+    id : front_round_room_lights
+    icon: "light-recessed"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 80
+    pos_hint: {"center_x": 565/floor_plan.width, "center_y": 523/floor_plan.height }
+    theme_text_color: "Custom"
+    text_color: "black"
+
+Widget:
+  brw : (1, 0, 0, 1)
+  sw : (1, 0, 0, 1)
+  w3 : (1, 0, 0, 1)
+  fpw : (1, 0, 0, 1)
+  lw : (1, 0, 0, 1)
+  kw : (1, 0, 0, 1)
+  guestw : (1, 0, 0, 1)
+  w7 : (0, 1, 0, 1)
+  
+  boned: (1, 0, 0, 1)
+  btwod: (1, 0, 0, 1)
+  kd: (1, 0, 0, 1)                   
+  ld: (1, 0, 0, 1)
+  sd: (1, 0, 0, 1)
+  d6: (1, 0, 0, 1)
+  canvas:
+    #__________________________________This is for the window lines____________________________________
+    Color:
+        rgba: self.brw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(61) * floor_plan.width),floor_plan.y + (app.y_point(998) * floor_plan.height),floor_plan.x + (app.x_point(102) * floor_plan.width),floor_plan.y + (app.y_point(998) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.brw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(160) * floor_plan.width),floor_plan.y + (app.y_point(998) * floor_plan.height),floor_plan.x + (app.x_point(202) * floor_plan.width),floor_plan.y + (app.y_point(998) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.brw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(261) * floor_plan.width),floor_plan.y + (app.y_point(998) * floor_plan.height),floor_plan.x + (app.x_point(303) * floor_plan.width),floor_plan.y + (app.y_point(998) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  #
+    Color:
+        rgba: self.brw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(12) * floor_plan.width),floor_plan.y + (app.y_point(946) * floor_plan.height),floor_plan.x + (app.x_point(12) * floor_plan.width),floor_plan.y + (app.y_point(903) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+    Color:
+        rgba: self.brw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(12) * floor_plan.width),floor_plan.y + (app.y_point(855) * floor_plan.height),floor_plan.x + (app.x_point(12) * floor_plan.width),floor_plan.y + (app.y_point(811) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+  
+    Color:
+        rgba: self.sw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(468) * floor_plan.width),floor_plan.y + (app.y_point(971) * floor_plan.height),floor_plan.x + (app.x_point(468) * floor_plan.width),floor_plan.y + (app.y_point(938) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.sw   # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(468) * floor_plan.width),floor_plan.y + (app.y_point(922) * floor_plan.height),floor_plan.x + (app.x_point(468) * floor_plan.width),floor_plan.y + (app.y_point(888) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.sw   # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(468) * floor_plan.width),floor_plan.y + (app.y_point(872) * floor_plan.height),floor_plan.x + (app.x_point(468) * floor_plan.width),floor_plan.y + (app.y_point(838) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+    Color:
+        rgba: self.sw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(468) * floor_plan.width),floor_plan.y + (app.y_point(822) * floor_plan.height),floor_plan.x + (app.x_point(468) * floor_plan.width),floor_plan.y + (app.y_point(789) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+    Color:
+        rgba: self.sw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(389) * floor_plan.width),floor_plan.y + (app.y_point(998) * floor_plan.height),floor_plan.x + (app.x_point(429) * floor_plan.width),floor_plan.y + (app.y_point(998) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.guestw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(98) * floor_plan.width),floor_plan.y + (app.y_point(735) * floor_plan.height),floor_plan.x + (app.x_point(98) * floor_plan.width),floor_plan.y + (app.y_point(685) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.w7  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(98) * floor_plan.width),floor_plan.y + (app.y_point(593) * floor_plan.height),floor_plan.x + (app.x_point(98) * floor_plan.width),floor_plan.y + (app.y_point(544) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.w7 # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(98) * floor_plan.width),floor_plan.y + (app.y_point(494) * floor_plan.height),floor_plan.x + (app.x_point(98) * floor_plan.width),floor_plan.y + (app.y_point(446) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.lw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(192) * floor_plan.width),floor_plan.y + (app.y_point(46) * floor_plan.height),floor_plan.x + (app.x_point(173) * floor_plan.width),floor_plan.y + (app.y_point(29) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.lw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(153) * floor_plan.width),floor_plan.y + (app.y_point(18) * floor_plan.height),floor_plan.x + (app.x_point(130) * floor_plan.width),floor_plan.y + (app.y_point(10) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.lw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(107) * floor_plan.width),floor_plan.y + (app.y_point(9) * floor_plan.height),floor_plan.x + (app.x_point(82) * floor_plan.width),floor_plan.y + (app.y_point(13) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.lw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(60) * floor_plan.width),floor_plan.y + (app.y_point(22) * floor_plan.height),floor_plan.x + (app.x_point(40) * floor_plan.width),floor_plan.y + (app.y_point(36) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba:self.lw   # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(24) * floor_plan.width),floor_plan.y + (app.y_point(55) * floor_plan.height),floor_plan.x + (app.x_point(13) * floor_plan.width),floor_plan.y + (app.y_point(76) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.lw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(6) * floor_plan.width),floor_plan.y + (app.y_point(102) * floor_plan.height),floor_plan.x + (app.x_point(7) * floor_plan.width),floor_plan.y + (app.y_point(127) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.lw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(13) * floor_plan.width),floor_plan.y + (app.y_point(150) * floor_plan.height),floor_plan.x + (app.x_point(22) * floor_plan.width),floor_plan.y + (app.y_point(173) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.lw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(40) * floor_plan.width),floor_plan.y + (app.y_point(192) * floor_plan.height),floor_plan.x + (app.x_point(59) * floor_plan.width),floor_plan.y + (app.y_point(208) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.lw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(98) * floor_plan.width),floor_plan.y + (app.y_point(261) * floor_plan.height),floor_plan.x + (app.x_point(98) * floor_plan.width),floor_plan.y + (app.y_point(217) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.fpw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(287) * floor_plan.width),floor_plan.y + (app.y_point(99) * floor_plan.height),floor_plan.x + (app.x_point(308) * floor_plan.width),floor_plan.y + (app.y_point(99) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.fpw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(406) * floor_plan.width),floor_plan.y + (app.y_point(99) * floor_plan.height),floor_plan.x + (app.x_point(428) * floor_plan.width),floor_plan.y + (app.y_point(99) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(478) * floor_plan.width),floor_plan.y + (app.y_point(454) * floor_plan.height),floor_plan.x + (app.x_point(527) * floor_plan.width),floor_plan.y + (app.y_point(454) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(579) * floor_plan.width),floor_plan.y + (app.y_point(598) * floor_plan.height),floor_plan.x + (app.x_point(602) * floor_plan.width),floor_plan.y + (app.y_point(591) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(617) * floor_plan.width),floor_plan.y + (app.y_point(582) * floor_plan.height),floor_plan.x + (app.x_point(632) * floor_plan.width),floor_plan.y + (app.y_point(564) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(638) * floor_plan.width),floor_plan.y + (app.y_point(551) * floor_plan.height),floor_plan.x + (app.x_point(644) * floor_plan.width),floor_plan.y + (app.y_point(529) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kw   # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(644) * floor_plan.width),floor_plan.y + (app.y_point(512) * floor_plan.height),floor_plan.x + (app.x_point(637) * floor_plan.width),floor_plan.y + (app.y_point(489) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(627) * floor_plan.width),floor_plan.y + (app.y_point(474) * floor_plan.height),floor_plan.x + (app.x_point(612) * floor_plan.width),floor_plan.y + (app.y_point(460) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kw  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(594) * floor_plan.width),floor_plan.y + (app.y_point(449) * floor_plan.height),floor_plan.x + (app.x_point(572) * floor_plan.width),floor_plan.y + (app.y_point(446) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+  
+        ## This Is Now The Door Lines
+  
+  
+  
+    Color:
+        rgba: self.boned  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(411) * floor_plan.width),floor_plan.y + (app.y_point(153) * floor_plan.height),floor_plan.x + (app.x_point(448) * floor_plan.width),floor_plan.y + (app.y_point(152) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.boned  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(411) * floor_plan.width),floor_plan.y + (app.y_point(215) * floor_plan.height),floor_plan.x + (app.x_point(449) * floor_plan.width),floor_plan.y + (app.y_point(215) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.btwod  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(411) * floor_plan.width),floor_plan.y + (app.y_point(332) * floor_plan.height),floor_plan.x + (app.x_point(448) * floor_plan.width),floor_plan.y + (app.y_point(332) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.btwod  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(411) * floor_plan.width),floor_plan.y + (app.y_point(394) * floor_plan.height),floor_plan.x + (app.x_point(448) * floor_plan.width),floor_plan.y + (app.y_point(394) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kd  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(535) * floor_plan.width),floor_plan.y + (app.y_point(597) * floor_plan.height),floor_plan.x + (app.x_point(535) * floor_plan.width),floor_plan.y + (app.y_point(560) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.kd  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(475) * floor_plan.width),floor_plan.y + (app.y_point(601) * floor_plan.height),floor_plan.x + (app.x_point(475) * floor_plan.width),floor_plan.y + (app.y_point(560) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.ld  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(326) * floor_plan.width),floor_plan.y + (app.y_point(690) * floor_plan.height),floor_plan.x + (app.x_point(363) * floor_plan.width),floor_plan.y + (app.y_point(690) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.sd  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(443) * floor_plan.width),floor_plan.y + (app.y_point(774) * floor_plan.height),floor_plan.x + (app.x_point(443) * floor_plan.width),floor_plan.y + (app.y_point(736) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.sd  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(381) * floor_plan.width),floor_plan.y + (app.y_point(774) * floor_plan.height),floor_plan.x + (app.x_point(381) * floor_plan.width),floor_plan.y + (app.y_point(736) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.d6  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(141) * floor_plan.width),floor_plan.y + (app.y_point(396) * floor_plan.height),floor_plan.x + (app.x_point(93) * floor_plan.width),floor_plan.y + (app.y_point(396) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+  
+    Color:
+        rgba: self.d6  # Adjust color as needed
+    Line:
+  
+        points: (floor_plan.x + (app.x_point(93) * floor_plan.width),floor_plan.y + (app.y_point(316) * floor_plan.height),floor_plan.x + (app.x_point(141) * floor_plan.width),floor_plan.y + (app.y_point(316) * floor_plan.height))
+  
+        width: app.linewidth
+        #____________________________________
+
+
+
+
+python code
+
+    def x_point(self, point):
+
+        return point/651
+
+
+    def y_point(self, point):
+        return point/1013
