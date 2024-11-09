@@ -1,32 +1,25 @@
 on_release: app.restart_menu("Midnight")
 
-
     def cancel_menu(self):
+        self.dialog.dismiss()
+    def ok_selection(self, option):
+        self.switch_theme(option)
         self.dialog.dismiss()
 
     def restart_menu(self, option):
 
-
         self.dialog = MDDialog(
-            text = 'Restart App To Apply Changes',
-            buttons = [
+            title="Restart Required",
+            text="Please restart the app to apply the new theme settings.",
+            buttons=[
                 MDFlatButton(
-                    text = 'cancel',
-                    on_release = lambda x: self.cancel_menu(),
-
+                    text="OK",
+                    on_release= lambda x: self.ok_selection(option)
                 ),
                 MDFlatButton(
-                    text = "Restart",
-
-                    on_release = lambda x: self.ask_restart(option),
-
-                ),
-
-            ],
-
+                    text="CANCEL",
+                    on_release=lambda x: self.cancel_menu()
+                )
+            ]
         )
         self.dialog.open()
-    def ask_restart(self, selected_theme):
-        self.switch_theme(selected_theme)
-
-        sys.exit()
