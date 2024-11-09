@@ -1,0 +1,138 @@
+# Buttons for the lights on the map
+
+
+MDIconButton:
+    id : front_round_room_lights
+    icon: "light-recessed"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':  0.11479591836734694   , 'center_y':  0.10575793184488835  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    #md_bg_color: (1, 1, 0.5, 1)
+
+
+MDIconButton:
+    id: library_light_button
+    icon: "wall-sconce"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':  0.17857142857142858   , 'center_y':  0.22444183313748534  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+
+
+MDIconButton:
+    id: backyard_flood_button
+    icon: "light-flood-down"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':  0.7627551020408163   , 'center_y':  0.2831962397179788  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+MDIconButton:
+    id: backyard_flood_light_button_2
+    icon: "light-flood-down"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':  0.6454081632653061   , 'center_y':  0.6169212690951822  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+
+
+MDIconButton:
+    id: chandelier_button
+    icon: "chandelier"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':   0.3086734693877551  , 'center_y':  0.4054054054054054  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+MDIconButton:
+    id: front_door_button
+    icon: "magnify-scan"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':  0.08418367346938775   , 'center_y': 0.39247943595769685   }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (1.0, 0.9569, 0.898, 1)
+    on_release : app.root.current = "front entryway page"
+
+MDIconButton:
+    id: front_flood_button
+    icon: "light-flood-down"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':  0.06887755102040816   , 'center_y':  0.5041128084606346  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+
+MDIconButton:
+    id: slope_light_button
+
+    icon: "coach-lamp"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':  0.07142857142857142   , 'center_y':  0.6462984723854289  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+MDIconButton:
+    id: outside_kitchen_button
+    icon: "light-recessed"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':   0.923469387755102  , 'center_y':  0.41245593419506466  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+
+
+MDIconButton:
+    id: scone_button_r
+    icon: "wall-sconce-round"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':  0.33163265306122447   , 'center_y':  0.28084606345475915  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+
+MDIconButton:
+    id: garage_flood_light_button
+    icon: "light-flood-down"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+    pos_hint: {'center_x':   0.2066326530612245  , 'center_y':  0.9071680376028202  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
+
+MDIconButton:
+    id: garage_carrage_light_button_1
+    icon: "coach-lamp"
+    user_font_size: "64sp"
+    theme_font_size: "Custom"
+    icon_size: 50
+
+    pos_hint: {'center_x':  0.5357142857142857   , 'center_y':  0.9071680376028202  }
+    theme_text_color: "Custom"
+    text_color: "black"
+    md_bg_color: (0.827, 0.827, 0.827, 0.5)
